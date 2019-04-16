@@ -1,0 +1,27 @@
+﻿  Node.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(100): error C2737: 'std::is_same_v': 'constexpr' object must be initialized
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(100): error C2998: 'const bool std::is_same_v': cannot be a template definition
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(245): error C2737: 'std::is_integral_v': 'constexpr' object must be initialized
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(245): error C2998: 'const bool std::is_integral_v': cannot be a template definition
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(282): error C2737: 'std::is_floating_point_v': 'constexpr' object must be initialized
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(282): error C2998: 'const bool std::is_floating_point_v': cannot be a template definition
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(295): error C2737: 'std::is_arithmetic_v': 'constexpr' object must be initialized
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(295): error C2998: 'const bool std::is_arithmetic_v': cannot be a template definition
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef(697): error C2737: 'std::is_function_v': 'constexpr' object must be initialized
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef(697): error C2998: 'const bool std::is_function_v': cannot be a template definition
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(524): error C2275: '_To': illegal use of this type as an expression
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(521): note: see declaration of '_To'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(526): note: see reference to class template instantiation 'std::is_assignable<_To,_From>' being compiled
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(524): error C2275: '_From': illegal use of this type as an expression
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(522): note: see declaration of '_From'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(524): error C3861: '__is_assignable': identifier not found
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(524): error C2975: '_Val': invalid template argument for 'std::integral_constant', expected compile-time constant expression
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtr1common(21): note: see declaration of '_Val'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1245): error C2061: syntax error: identifier '__make_integer_seq'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1249): error C2065: '_Vals': undeclared identifier
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1249): error C2975: '_Vals': invalid template argument for 'std::integer_sequence', expected compile-time constant expression
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1190): note: see declaration of '_Vals'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1252): error C2061: syntax error: identifier 'make_integer_sequence'
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1261): error C2631: 'identity': a class or enum cannot be defined in an alias template
+d:\study\3rd semester\dsa_fareedulhassan\projects\csll\csll\node.cpp : fatal error C1903: unable to recover from previous error(s); stopping compilation
+  CTIPlugin::InvokeCallback=APPCRASHCTIPlugin::InvokeCallback=APPCRASHCTIPlugin::InvokeCallback=APPCRASHCTIPlugin::InvokeCallback=APPCRASHCTIPlugin::InvokeCallback=APPCRASH
